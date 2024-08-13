@@ -28,3 +28,14 @@ yarn-error.log*
 
 # Visual Studio Code / Visual Studio - Application Insights
 .vs
+
+
+# Ignore DLL files
+*.dll
+
+# Ignore PDB files
+*.pdb
+
+# Ignore Visual Studio build folders
+**/bin/
+**/obj/
