@@ -30,12 +30,15 @@ yarn-error.log*
 .vs
 
 
+# Ignore build directories
+**/bin/
+**/obj/
+
 # Ignore DLL files
 *.dll
 
 # Ignore PDB files
 *.pdb
 
-# Ignore Visual Studio build folders
-**/bin/
-**/obj/
+# Ignore EXE files
+*.exe
